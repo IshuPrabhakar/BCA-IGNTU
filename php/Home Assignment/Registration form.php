@@ -33,12 +33,12 @@
 
                     <!--Form content-->
                     <h2 class="title">Registration Form</h2>
-                    <form method="POST" action="Response.html">
+                    <form method="GET" action="Response.php" target="blank">
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">first name</label>
-                                    <input class="input--style-4" type="text" name="first_name">
+                                    <input class="input--style-4" type="text" name="name">
                                 </div>
                             </div>
                             <div class="col-2">

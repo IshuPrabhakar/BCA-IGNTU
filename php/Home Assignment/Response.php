@@ -24,11 +24,19 @@
 </head>
 
 <body>
+
     <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
-                    <h1>Hey</h1>
+                    <h1>Hey <?php echo $_GET['name']." ".$_GET['last_name']; ?> </h1>
+                    <p> <br> <br> you're date of birth is <?php echo $_GET['birthday']; ?> 
+                        <br> you have registered with this email <b><?php echo $_GET['email'];?>
+                         </b> with this phone number <b><?php echo $_GET['phone']; ?></b>
+                    </p>
+                    <br>
+                    <br>
+                    <h3>Good luck! &#128522</h3>
                 </div>
             </div>
         </div>
