@@ -2,6 +2,6 @@
 
 def display(num):
     for i in range(num, 0, -1):
-        print(i)
+        print(i)jgjjg
 
 display(10)
