@@ -1,4 +1,4 @@
-# Q1. write a python program to demonstrate the use of pass
+# Q3. write a python program to demonstrate the use of pass
 
 def use_of_pass():
     for i in range(10):
