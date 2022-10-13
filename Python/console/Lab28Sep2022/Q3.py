@@ -4,6 +4,6 @@ def use_of_pass():
     for i in range(10):
         if(i > 5):
             pass
-            print(i)
+        print(i)
 
 use_of_pass()
