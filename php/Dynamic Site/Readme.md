@@ -14,3 +14,7 @@
 - Have to make use of Ajax.
 - Perform client and server side validation as well.
 - Options to download and upload data or files.
+
+
+My idea is to make a a site where a user can share its notes to other user  
+as a social media site
